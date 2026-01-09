@@ -10,6 +10,7 @@ Unity/[Bb]uild/
 Unity/[Bb]uilds/
 Unity/[Ll]ogs/
 Unity/[Mm]emoryCaptures/
+Unity/UserSettings/
 
 # Unity cache / metadata
 Unity/*.csproj
@@ -27,6 +28,7 @@ Unity/*.svd
 Unity/AddressableAssetsData/*/*.bin*
 Unity/AddressableAssetsData/*/*.json
 Unity/AddressableAssetsData/*/*.hash
+
 
 ############################################
 # OS / Editor junk
