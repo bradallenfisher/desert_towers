@@ -1,0 +1,66 @@
+############################################
+# Unity (applies to /Unity project)
+############################################
+
+# Unity generated folders
+Unity/[Ll]ibrary/
+Unity/[Tt]emp/
+Unity/[Oo]bj/
+Unity/[Bb]uild/
+Unity/[Bb]uilds/
+Unity/[Ll]ogs/
+Unity/[Mm]emoryCaptures/
+
+# Unity cache / metadata
+Unity/*.csproj
+Unity/*.unityproj
+Unity/*.sln
+Unity/*.suo
+Unity/*.tmp
+Unity/*.user
+Unity/*.userprefs
+Unity/*.pidb
+Unity/*.booproj
+Unity/*.svd
+
+# Unity Addressables / artifacts
+Unity/AddressableAssetsData/*/*.bin*
+Unity/AddressableAssetsData/*/*.json
+Unity/AddressableAssetsData/*/*.hash
+
+############################################
+# OS / Editor junk
+############################################
+
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+.vscode/
+.idea/
+
+############################################
+# Build artifacts (server/client)
+############################################
+
+ServerTools/build/
+ServerTools/dist/
+ServerTools/output/
+
+############################################
+# Logs / temp
+############################################
+
+*.log
+*.tmp
+
+############################################
+# Optional (uncomment later if needed)
+############################################
+
+# Unity crash reports
+# Unity/CrashReports/
+
+# Docker
+# **/Dockerfile
+# **/.dockerignore
