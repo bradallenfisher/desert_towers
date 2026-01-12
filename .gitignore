@@ -24,6 +24,16 @@ Unity/*.pidb
 Unity/*.booproj
 Unity/*.svd
 
+# Unity generated at repo root (if you ever build outside Unity/)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+
 # Unity Addressables / artifacts
 Unity/AddressableAssetsData/*/*.bin*
 Unity/AddressableAssetsData/*/*.json
@@ -66,3 +76,5 @@ ServerTools/output/
 # Docker
 # **/Dockerfile
 # **/.dockerignore
+# Root build outputs
+builds/
